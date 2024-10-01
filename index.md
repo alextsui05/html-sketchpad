@@ -12,13 +12,3 @@ title: "Happy coding"
     <p class="text-slate-500 dark:text-white">Hi, thanks for stopping by this humble developer's webpage. Feel free to take a look around.</p>
   </div>
 </div>
-<div class="py-6">
-  <h1 class="text-4xl py-3">Posts</h1>
-  <ul>
-    {% for post in site.posts %}
-      <li>
-        <span class="font-bold pr-2">{{ post.date | date: "%Y-%m-%d" }}</span><a href="{% link {{ post.path }} %}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-</div>
