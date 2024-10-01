@@ -1,6 +1,6 @@
 url: 'https://alextsui05.github.io'
-baseurl: 'jekyllwind-test'
-title: 'Jekyllwind'
+baseurl: ''
+title: 'Alex Tsui'
 
 plugins:
   - jekyll-postcss

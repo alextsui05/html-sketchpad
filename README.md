@@ -1,11 +1,11 @@
-# jekyllwind-test
+# alextsui05.github.io
 
-This is a starter project that deploys a Jekyll + Tailwind site to Github pages.
+This is the source code for my personal developer webpage hosted at https://alextsui05.github.io
+
+It is built with Jekyll and Tailwind.
 Github Actions handles the deploy and is triggered by a push to the main branch.
-See the result at https://alextsui05.github.io/jekyllwind-test/
-
-Here is the blog that I referred to for the starter code:
-https://mzrn.sh/2022/04/09/starting-a-blank-jekyll-site-with-tailwind-css-in-2022/
+Feel free to clone it as a starting point.
+Alternatively, I have some starter code with some more info in another repository: https://github.com/alextsui05/jekyllwind-test/
 
 # Local dev
 

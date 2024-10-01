@@ -3,60 +3,22 @@ layout: default
 title: "Happy coding"
 ---
 
-<div class="py-24 max-w-xl mx-auto text-center">
-  <h1 class="text-xl mb-12">
-    <span class="text-4xl block">
-      Jekyllwind
-    </span>
-
-    <span class="uppercase font-light text-purple-500">
-      A Jekyll + Tailwind CSS boilerplate
-    </span>
-  </h1>
-
-  <h2>Build something beautiful with it ✌️</h2>
-</div>
-
-<div class="mx-auto max-w-4xl">
-  <h1 class="text-4xl">Sample Code Snippets</h1>
-  <h2 class="text-2xl">Ruby</h2>
-
-{% highlight ruby linenos %}
-[1, 2, 3].each do
-  puts "Hello world"
-end
-{% endhighlight %}
-
-  <h2 class="text-2xl">Html</h2>
-
-{% highlight html %}
-<h1>Hello world</h1>
-{% endhighlight %}
-
-  <h2 class="text-2xl">Javascript</h2>
+<div class="p-6 max-w-sm mx-auto bg-white dark:bg-slate-700 rounded-xl shadow-lg flex items-center space-x-4">
+  <div class="shrink-0">
+    <img class="rounded-full h-12 w-12" src="{{ "/assets/img/me-bucket-hat.png" | relative_url }}" alt="Anime me">
   </div>
-
-## Output
-
-{% highlight js %}
-console.log("Hello world");
-{% endhighlight %}
-
-## Source
-
-```liquid
-{% raw %}
-{% highlight js %}
-console.log("Hello world");
-{% endhighlight %}
-{% endraw %}
-```
-
-<h2 class="text-4xl">Posts</h2>
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <span class="font-bold pr-2">{{ post.date | date: "%Y-%m-%d" }}</span><a href="{% link {{ post.path }} %}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+  <div>
+    <div class="text-xl font-medium text-black dark:text-blue-300">Alex Tsui</div>
+    <p class="text-slate-500 dark:text-white">Hi, thanks for stopping by this humble developer's webpage. Feel free to take a look around.</p>
+  </div>
+</div>
+<div class="py-6">
+  <h1 class="text-4xl py-3">Posts</h1>
+  <ul>
+    {% for post in site.posts %}
+      <li>
+        <span class="font-bold pr-2">{{ post.date | date: "%Y-%m-%d" }}</span><a href="{% link {{ post.path }} %}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
