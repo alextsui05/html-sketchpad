@@ -1,6 +1,6 @@
 url: 'https://alextsui05.github.io'
-baseurl: ''
-title: 'Alex Tsui'
+baseurl: 'html-sketchpad'
+title: 'HTML Sketchpad'
 
 plugins:
   - jekyll-postcss

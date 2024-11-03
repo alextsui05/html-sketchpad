@@ -1,11 +1,6 @@
-# alextsui05.github.io
+# html-sketchpad
 
-This is the source code for my personal developer webpage hosted at https://alextsui05.github.io
-
-It is built with Jekyll and Tailwind.
-Github Actions handles the deploy and is triggered by a push to the main branch.
-Feel free to clone it as a starting point.
-Alternatively, I have some starter code with some more info in another repository: https://github.com/alextsui05/jekyllwind-test/
+Just a sketchpad of HTML, CSS (Tailwind), and JS
 
 # Local dev
 
