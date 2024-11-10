@@ -44,4 +44,12 @@
       @apply p-2;
     }
   }
+
+  .btn {
+    @apply p-4 bg-gray-400 hover:bg-gray-300 rounded;
+    
+    &.toggled {
+      @apply text-white dark:text-black;
+    }
+  }
 }
