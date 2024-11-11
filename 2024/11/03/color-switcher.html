@@ -1,0 +1,52 @@
+<html lang="en-US">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>Color Switcher - HTML Sketchpad</title>
+    <script type="text/javascript" src="/html-sketchpad/assets/js/main.js"></script>
+    <link rel="stylesheet" href="/html-sketchpad/assets/css/main.css" />
+  </head>
+  <body>
+    <div class="py-24 max-w-4xl mx-auto">
+      <div class="sticky top-0 bg-white dark:bg-slate-800 pb-3">
+  <nav>
+    <ul class="flex flex-col space-y-3 md:space-y-0 md:space-x-8 md:flex-row md:py-3">
+      <li>
+        <a href="/html-sketchpad/">Home</a>
+      </li>
+      <li>
+        <a href="#" data-toggle-dark="">Toggle dark mode</a>
+      </li>
+      <li>
+        <a href="https://github.com/alextsui05/html-sketchpad">Github</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+
+      <div>
+        <h1>Color switcher</h1>
+        <div>
+          <button class="btn" data-color-toggle="">
+            color-switcher
+          </button>
+        </div>
+        <h1>String compression</h1>
+        <div>
+          <input type="text" />
+          <button>Submit</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', () => {
+      const colorToggle = document.querySelector('[data-color-toggle]');
+      if (colorToggle) {
+        colorToggle.addEventListener('click', () => {
+          colorToggle.classList.toggle('toggled');
+        });
+      }
+    });
+  </script>
+</html>
